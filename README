@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------
+You may distribute this program under the terms of the Artistic
+License.
+                                                                           
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the Artistic
+License for more details.
+-------------------------------------------------------------------------
+
+This is a pretty simple program, written to solve a pretty simple
+problem. It does very little, but it does it quite neatly.
+
+If you specify a number on the command line (preceded by a switch to
+describe the base the number is in) the program will display that
+number in all four bases on the console and exit. You can also specify
+the -s switch which will allow you to enter/display signed
+numbers. (This allows the use of a - (minus) before a decimal number).
+
+Just running the program without any switches will display the main
+window. There are four entry boxes, corresponding to each of the four
+bases. You can type into any of these boxes and the others will update
+automagically. The program will ignore any characters that are not
+allowed for that particular base. It will only allow a - (minus) at
+the start of a decimal number, if the signed option is on.
+
+The program only deals with 32 bit integers, so the range of values
+are 0 to 4294967295 unsigned and -2147483648 to 2147483647 signed. If
+a number becomes too big for the program to handle, an OVERFLOW
+message will appear in the window.
+
+The dump button will print to the console the current number in all
+four bases, similar to the command line options.
+
+
+Please report any bugs to:
+
+Damian Kramer (psiren@hibernaculum.demon.co.uk)
+Roger Dunce (kro@penguinpowered.com)
